@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+    color: #ff7300;
+    font-family:"Freeman";
+    font-size: 40px;
+}
+
+main {
+    text-align: center;
+}
+
+.textoyMail {
+    margin-bottom: 30px;
+    height: 30px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.texto {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+.enviar {
+    font-family: "Poppins";
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    transition: transform 1s ease;
+}
+
+.enviar:hover {
+    background-color: #ff7300;
+    
+    transform: scale(1.1);
+}

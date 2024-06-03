@@ -1,0 +1,44 @@
+Alt+Z = Word Wrap
+
+text-margination: underline = Subrayado
+
+  <a class="verMasUno" href="/mas-paginas/nvidia.html">Ver más</a>
+  <a class="verMasDos" href="/mas-paginas/ryzen.html">Ver más</a>
+  <a class="verMasTres" href="/mas-paginas/radeon.html">Ver más</a>
+
+   .verMasUno {
+    text-decoration: none;
+    color: white;
+    background-color: #ff4d00;
+    border: 2px solid white;
+    padding: 4px;
+    margin-left: 150px;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-radius: 30px;
+    
+ }
+
+ .verMasDos {
+   text-decoration: none;
+   color: white;
+   background-color: #ff4d00;
+   border: 2px solid white;
+   padding: 4px;
+   margin-left: 430px;
+   font-weight: 600;
+   font-family: "Poppins";
+   border-radius: 30px;
+   }
+
+   .verMasTres {
+      text-decoration: none;
+      color: white;
+      background-color: #ff4d00;
+      border: 2px solid white;
+      padding: 4px;
+      margin-left: 390px;
+      font-weight: 600;
+      font-family: "Poppins";
+      border-radius: 30px;
+      }

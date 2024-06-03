@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+    font-family: Lato;
+    margin: auto;
+ }
+ header {
+    background: linear-gradient(90deg, #ff7300, #ff4d00);
+   
+}
+
+nav {
+    padding: 2px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    align-items: center;
+    column-gap: 40px;
+  
+  }
+
+.logo {
+  margin-left: 5px;
+  height: 40px;
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 3px;
+  transition: transform 1s ease;
+}
+
+.logo:hover {
+  transform:rotate(180deg)
+}
+
+.botonesNav {
+    margin-left: 9px;
+    margin-right: 9px;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    width: 25%;
+    font-weight: bold;
+    font-family: "Poppins";
+    transition: scale 200ms ease;
+    
+}
+
+.botonesNav:hover {
+  color: yellow;
+  scale: 1.1;
+}
+
+
+
+ h1 {
+     text-align: center;
+     color: #ff7300;
+     font-family:"Freeman";
+     letter-spacing: 10px;
+     font-size: 40px;
+ }
+
+ h2 {
+     font-family: "Poppins";
+     font-size: 30px;
+     text-align: center;
+   }
+
+ .linea {
+   background-color: grey;
+   width: 100%;
+   height: 3px;
+ }  
+
+.componentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  
+  }
+ 
+  .perifericos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  article {
+    transition: transform 400ms ease;
+    display: block;
+  }
+
+  article:hover {
+    transform: scale(1.1);
+  }
+ 
+  article a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    border: solid 3px orange;
+    border-radius: 50px;
+    padding: 4px;
+  }
+
+  
+  article a:hover {
+    background-color: #ff7300;
+    font-weight: bold;
+
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+   
+
+ .imagenUno {
+    width: 350px;
+    height: 300px;
+
+ }
+
+ .imagenDos {
+    width: 350px;
+    height: 300px;
+
+ }
+
+ .imagenTres {
+   width: 350px;
+   height: 300px;
+ }
+
+ .imagenCuatro {
+   width: 300px;
+   height: 300px;
+ }
+
+ .imagenCinco {
+   width: 300px;
+   height: 300px;
+ }
+
+ .imagenSeis {
+   width: 300px;
+   height: 300px;
+
+ }
+
+
+ footer {
+     background: linear-gradient(90deg, #ff7300, #ff4d00);
+     width: 100%;
+ 
+ }
+ 
+ .imgFooter {
+  text-align: center;
+}
+
+ .instagram {
+  width: 30px;
+ }
+
+ .parrafosFooter {
+     color:white;
+     margin-left: 3px;
+     text-align: center;
+ }
+ 
+
+ .twitter {
+    width:55x ;
+    height: 25px;
+ }
+
+ .contacto {
+   text-decoration: none;
+   color: white;
+   display: block;
+   text-align: center;
+   font-weight: bold;
+   text-decoration: underline;
+ }
+
+
+
