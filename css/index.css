@@ -5,8 +5,7 @@ body {
  }
  header {
     background: linear-gradient(90deg, #ff7300, #ff4d00);
-   
-}
+   }
 
 nav {
     padding: 2px;
@@ -20,7 +19,7 @@ nav {
 
 .logo {
   margin-left: 5px;
-  height: 40px;
+  height: 50px;
   border: 4px solid white;
   border-radius: 50%;
   padding: 3px;
@@ -49,16 +48,27 @@ nav {
   scale: 1.1;
 }
 
-
-
  h1 {
      text-align: center;
      color: #ff7300;
      font-family:"Freeman";
      letter-spacing: 10px;
-     font-size: 40px;
+     font-size: 60px;
  }
 
+
+ .carousel {
+  height: 550px;
+  margin-bottom: 20px;
+ }
+
+ .carouselDos {
+  height: 550px;
+ }
+
+ .carouselTres {
+  height: 550px;
+ }
  h2 {
      font-family: "Poppins";
      font-size: 30px;
@@ -71,14 +81,18 @@ nav {
    height: 3px;
  }  
 
+ .dos {
+  margin-bottom: 10px;
+ }
+
 .componentes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    margin-top: 15px;
     margin-bottom: 50px;
-  
+    margin-top: 30px;
+    font-family: Montserrat;
   }
  
   .perifericos {
@@ -87,7 +101,8 @@ nav {
     justify-content: space-around;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-family: Montserrat;
   }
   
   article {
@@ -112,8 +127,7 @@ nav {
   
   article a:hover {
     background-color: #ff7300;
-    font-weight: bold;
-
+    font-weight: 500;
   }
 
   h3 {
@@ -173,6 +187,7 @@ nav {
      color:white;
      margin-left: 3px;
      text-align: center;
+     font-weight: bold;
  }
  
 
@@ -190,5 +205,6 @@ nav {
    text-decoration: underline;
  }
 
-
-
+ footer img:hover {
+  transform: scale(1.1);
+ }
